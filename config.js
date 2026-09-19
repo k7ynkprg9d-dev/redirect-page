@@ -3,24 +3,22 @@
 // ======================================================
 
 const CONFIG = {
-  // 1. Link trang web đích muốn chuyển tới (Thay link của bạn vào đây)
-  // Ví dụ: "https://google.com" hoặc "https://facebook.com"
-  targetUrl: "https://example.com",
+  // 1. Link trang web đích
+  targetUrl: "https://w9.vty36.net/",
 
   // 2. Tiêu đề và mô tả hiển thị trên trang
   title: "Đang Chuyển Hướng",
-  subtitle: "Nhấn vào nút bên dưới để tiếp tục chuyển đến trang đích an toàn.",
+  subtitle: "Nhấn vào nút bên dưới để tiếp tục truy cập an toàn.",
 
   // 3. Chữ hiển thị trên nút bấm
-  buttonText: "Tiếp tục đến trang đích",
+  buttonText: "Truy cập ngay",
 
-  // 4. Mở trong tab mới ("_blank") hay tab hiện tại ("_self")
+  // 4. Mở trong tab hiện tại ("_self") hay tab mới ("_blank")
   targetWindow: "_self",
 
-  // 5. Tự động chuyển sau X giây (Đặt 0 nếu CHỈ muốn chuyển khi người dùng BẤM NÚT)
+  // 5. Tự động chuyển sau X giây (0 = chỉ chuyển khi người dùng bấm nút)
   autoRedirectSeconds: 0, 
 
-  // 6. Cho phép nhận link từ tham số URL: ?to=https://... (true/false)
-  // Nếu bật, bạn có thể tạo link dạng: index.html?to=https://link-cua-ban.com
+  // 6. Cho phép ghi đè link qua tham số ?to=... nếu bạn muốn linh hoạt (true/false)
   allowUrlParam: true
 };

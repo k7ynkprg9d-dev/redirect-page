@@ -13,55 +13,28 @@
 
   <!-- Thẻ nội dung chính -->
   <div class="card">
-    <!-- Nút cài đặt link nhanh -->
-    <button id="settings-btn" class="settings-trigger" title="Cài đặt link chuyển tiếp">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="3"></circle>
-        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-      </svg>
-    </button>
-
-    <!-- Biểu tượng -->
+    <!-- Biểu tượng chuyển tiếp bảo mật -->
     <div class="icon-wrapper">
       <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-        <polyline points="15 3 21 3 21 9"></polyline>
-        <line x1="10" y1="14" x2="21" y2="3"></line>
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
       </svg>
     </div>
 
     <!-- Tiêu đề & Mô tả -->
     <h1 id="page-title">Đang Chuyển Hướng</h1>
-    <p id="page-subtitle" class="subtitle">Nhấn vào nút bên dưới để tiếp tục chuyển đến trang web đích.</p>
+    <p id="page-subtitle" class="subtitle">Nhấn vào nút bên dưới để tiếp tục truy cập an toàn.</p>
 
     <!-- Nút bấm chuyển tiếp -->
     <a href="#" id="redirect-btn" class="btn-redirect">
-      <span id="redirect-btn-text">Tiếp tục đến trang đích</span>
+      <span id="redirect-btn-text">Truy cập ngay</span>
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
         <polyline points="9 18 15 12 9 6"></polyline>
       </svg>
     </a>
 
-    <!-- Xem trước link đích -->
-    <div class="destination-preview">
-      Trang đích: <span id="destination-preview">...</span>
-    </div>
-
-    <!-- Bộ đếm ngược (nếu bật) -->
+    <!-- Bộ đếm ngược (nếu bật trong config) -->
     <div id="countdown-container" class="countdown-container">
       Tự động chuyển tiếp sau <strong id="countdown-seconds">0</strong> giây...
-    </div>
-  </div>
-
-  <!-- Modal cài đặt URL nhanh -->
-  <div id="settings-modal" class="modal-overlay">
-    <div class="modal-content">
-      <h3>Cài đặt link chuyển tiếp</h3>
-      <input type="url" id="target-url-input" placeholder="Nhập link web đích (vd: https://google.com)">
-      <div class="modal-actions">
-        <button id="cancel-settings-btn" class="modal-btn btn-secondary">Hủy</button>
-        <button id="save-settings-btn" class="modal-btn btn-primary">Lưu</button>
-      </div>
     </div>
   </div>
 
