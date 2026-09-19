@@ -7,11 +7,11 @@ const CONFIG = {
   targetUrl: "https://w9.vty36.net/",
 
   // 2. Tiêu đề và mô tả hiển thị trên trang
-  title: "Đang Chuyển Hướng",
-  subtitle: "Nhấn vào nút bên dưới để tiếp tục truy cập an toàn.",
+  title: "VTY36.NET",
+  subtitle: "Nhấn vào nút bên dưới để đăng ký tài khoản chính thức.",
 
   // 3. Chữ hiển thị trên nút bấm
-  buttonText: "Truy cập ngay",
+  buttonText: "Đăng kí tài khoản",
 
   // 4. Mở trong tab hiện tại ("_self") hay tab mới ("_blank")
   targetWindow: "_self",
