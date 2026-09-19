@@ -1,6 +1,10 @@
 # Hướng Dẫn Sử Dụng Trang Web Trung Gian (Redirect Page)
 
-Mã nguồn được lưu tại: `/Users/crack/.gemini/antigravity/scratch/redirect-landing-page`
+🌐 **Link Website Online (Có thể mở từ bất kỳ đâu):**
+👉 **https://k7ynkprg9d-dev.github.io/redirect-page/**
+
+- Mã nguồn local: `/Users/crack/.gemini/antigravity/scratch/redirect-landing-page`
+- Kho lưu trữ GitHub: https://github.com/k7ynkprg9d-dev/redirect-page
 
 ---
 
